@@ -1,0 +1,42 @@
+{
+  "confidence_level": 0.95,
+  "exact_integral": 0.3333333333333333,
+  "integrand": "x squared on [0,1]",
+  "package_version": "0.1.0",
+  "replications_per_size": 80,
+  "results": [
+    {
+      "empirical_coverage": 0.95,
+      "mean_standard_error": 0.029926272028286387,
+      "replications": 80,
+      "root_mean_squared_error": 0.030935740289554897,
+      "samples": 100
+    },
+    {
+      "empirical_coverage": 0.9125,
+      "mean_standard_error": 0.014850322132225856,
+      "replications": 80,
+      "root_mean_squared_error": 0.016483494853083883,
+      "samples": 400
+    },
+    {
+      "empirical_coverage": 0.95,
+      "mean_standard_error": 0.007449167479256858,
+      "replications": 80,
+      "root_mean_squared_error": 0.006717699082760678,
+      "samples": 1600
+    },
+    {
+      "empirical_coverage": 0.9625,
+      "mean_standard_error": 0.003727128981517294,
+      "replications": 80,
+      "root_mean_squared_error": 0.003701398170081124,
+      "samples": 6400
+    }
+  ],
+  "schema_version": 1,
+  "seed_assignment": "seed_start + size_index * replications + replication_index",
+  "seed_start": 2026,
+  "selection": "all prescribed runs included; no seed or path selection",
+  "source": "synthetic pseudorandom experiment; no external data"
+}
